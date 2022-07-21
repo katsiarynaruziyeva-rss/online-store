@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online-store</title>
+    <link rel="stylesheet" href="global.css"/>
+    <link rel="stylesheet" href="/online-store/src/css/nouislider.min.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+    <div class="nav-center">
+        <div class="nav-left">
+            <a href="https://rs.school/js/">
+                <div class="logo"></div>
+            </a>
+        </div>
+        <div class="nav-middle">online-store</div>
+        <div class="nav-right">
+            <a class="cart fa-cart-circle-check">cart
+                <img>
+            </a>
+        </div>
+    </div>
+</div>
+    </nav>
+  <main>
+    <div class="container">
+        <div class="description">
+      <section class="filter">
+          <h3>Фильтрация по значению</h3>
+          <div class="filter__brand">Производитель: 
+            <ul>
+                <button class="brand mark samsung"></button>
+                <button class="brand mark apple"></button>
+                <button class="brand mark xiaomi"></button>
+            </ul>
+          </div>
+          <div class="filter__brand">Количество камер:
+            <ul>
+                <button class="brand count 1">1</button>
+                <button class="brand count 2">2</button>
+                <button class="brand count 3">3</button>
+            </ul>
+          </div>
+          <div class="filter__brand">Цвет:
+            <ul>
+                <button class="brand color white"></button>
+                <button class="brand color yellow"></button>
+                <button class="brand color red"></button>
+            </ul>
+          </div>
+          <div class="filter__brand">Только популярные
+            <input type="checkbox" class="favorite-input" id="checkbox">
+            <label for="checkbox" class="favorite-input-label"></label>
+          </div>
+      </section>
+      <section class="filter">
+          <h3>Фильтрация по диапазону</h3>
+              <div class="Range">
+                <div>
+                    <h4>Количество на складе</h4>
+                    <div class="slider">
+                        <div class="mb-0">
+                            <div class="fw-bold mb-2"><span class="kt_slider_basic_min"></span></div>
+                            <div class="kt_slider_basic"></div>
+                            <div class="fw-bold mb-2"><span class="kt_slider_basic_max"></span></div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="Range">
+                <div>
+                    <h4>Год выхода на рынок</h4>
+                        <div id="slider">
+                            <div class="mb-0">
+                                <div class="fw-bold mb-2"><span class="kt_slider_basic_min"></span></div>
+                                <div class="kt_slider_basic"></div>
+                                <div class="fw-bold mb-2"><span class="kt_slider_basic_max"></span></div>
+                            </div>
+                        </div>
+                </div>
+              </div>
+      </section>
+      <section class="filter">
+              <div>
+                <div class="filter__byname">
+                    <h4>Поиск</h4>
+                    <div class="search-panel">
+                        <input id="search_by_name" placeholder="Введите текст" type="text" class="search__input">
+                    </div>
+                </div>
+                <div>
+                    <h4>Сортировка</h4>
+                    <div class="search-panel">
+                        <select class="search-all select">
+                            <option class="select__item">Сортировка по названию, от А до Я</option>
+                            <option class="select__item">Сортировка по названию, от Я до А</option>
+                            <option class="select__item">По году выпуска, по возрастанию</option>
+                            <option class="select__item">По году выпуска, по убыванию</option> 
+                            <option class="select__item">По количеству, по возрастанию</option>
+                            <option class="select__item">По количеству, по убыванию</option> 
+                          </select>
+                    </div>
+                </div>
+                <div></div>
+              </div>
+      </section>
+    </div>
+   <div class="phone-list"></div>
+</div>
+  </main>
+  <footer>
+    <div class="container">
+    <div class="footer__logo">
+        <a href="https://rs.school/js/"><div class="logo"></div></a>
+    </div>
+    <div class="footer__github">GitHub
+        <a href="https://github.com/katsiarynaruziyeva-rss">hkatsiarynaruziyeva-rss</a>
+    </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+  <script src="/online-store/src/css/nouislider.js"></script>
+</body>
+</html>

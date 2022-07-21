@@ -1,0 +1,83 @@
+[
+    {
+      "tittle": "Aplle iPhone 13",
+      "img": "/online-store/src/media/050a6f0f727e91c7d6fb306dfce40a25.jpeg",
+      "count": "10",
+      "date": "2021",
+      "firm": "Apple",
+      "color": "red",
+      "camera": "2",
+      "popular": "нет"
+    },
+    {
+        "tittle": "Samsung pro 12",
+        "img": "/online-store/src/media/0bde71a90a551c172c6a9e290d1cdbed.jpeg",
+        "count": "10",
+        "date": "2021",
+        "firm": "Samsung",
+        "color": "red",
+        "camera": "2",
+        "popular": "да"
+      },
+      {
+        "tittle": "Aplle iPhone 13",
+        "img": "/online-store/src/media/7098be15f7820975d81b6b9df82f6e63.jpeg",
+        "count": "10",
+        "date": "2021",
+        "firm": "Apple",
+        "color": "yellow",
+        "camera": "2",
+        "popular": "нет"
+      },
+      {
+        "tittle": "Xiaomi redmi note 9",
+        "img": "/online-store/src/media/b9fefc8c8f96dbc21492792f3a1a502d.jpeg",
+        "count": "5",
+        "date": "2020",
+        "firm": "Xiaomi",
+        "color": "white",
+        "camera": "1",
+        "popular": "да"
+      },
+      {
+        "tittle": "Samsung galaxy 10",
+        "img": "/online-store/src/media/c66db6b4c5cce1915eadd8bb59f5c527.jpeg",
+        "count": "10",
+        "date": "2021",
+        "firm": "Samsung",
+        "color": "white",
+        "camera": "2",
+        "popular": "нет"
+      },
+      {
+        "tittle": "Aplle iPhone 13 pro",
+        "img": "/online-store/src/media/d4b3b276129871ada9a388c9fde66db1.jpeg",
+        "count": "10",
+        "date": "2022",
+        "firm": "Apple",
+        "color": "red",
+        "camera": "3",
+        "popular": "да"
+      },
+      {
+        "tittle": "xiaomi redmi note 12",
+        "img": "/online-store/src/media/0bde71a90a551c172c6a9e290d1cdbed.jpeg",
+        "count": "4",
+        "date": "1998",
+        "firm": "Xiaomi",
+        "color": "yellow",
+        "camera": "1",
+        "popular": "да"
+      },
+      {
+        "tittle": "Aplle iPhone 11",
+        "img": "/online-store/src/media/c66db6b4c5cce1915eadd8bb59f5c527.jpeg",
+        "count": "11",
+        "date": "2020",
+        "firm": "Apple",
+        "color": "yellow",
+        "camera": "3",
+        "popular": "нет"
+      }
+    
+  ]
